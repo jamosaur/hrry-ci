@@ -35,5 +35,11 @@ class HrryCiTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($expected, $hrry->outpt());
     }
 
+    public function testHrryCi()
+    {
+        $hrry = new HrryCi();
+        $hrry->text = 'haha, yes';
 
+        $this->assertEquals('hh, yes', $hrry->outpt());
+    }
 }

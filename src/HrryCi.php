@@ -12,7 +12,7 @@ class HrryCi
     /**
      * @var null
      */
-    private $text;
+    public $text;
     /**
      * @var array
      */
